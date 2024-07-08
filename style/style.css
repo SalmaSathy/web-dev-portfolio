@@ -13,6 +13,18 @@
 .dark-2{
     color: #474747;
   }
+  .seondary-background{
+    background-color: #FFF8F3;
+  }
+  .section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+  }
+  .section-description{
+    font-size: 18px;
+    color: #757575;
+  }
   .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -22,8 +34,9 @@
     border-radius: 5px;
     border: none;
 
-
   }
+ 
+  /* share end */
   /* header start */
   .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -76,6 +89,25 @@
   .banner-image{
     width: 580px;
 
+  }
+  /* about start */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .about{
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+    text-align: center;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+  }
+  .item-description{
+    font-weight: 600;
   }
 
   
